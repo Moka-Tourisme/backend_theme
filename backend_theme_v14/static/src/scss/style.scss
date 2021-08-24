@@ -436,3 +436,9 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
 .o_thread_window .o_thread_window_header {
 	background-color: $brand-primary;
 }
+
+// Events
+
+.bg-primary {
+	background-color: $brand-secondary !important;
+}
