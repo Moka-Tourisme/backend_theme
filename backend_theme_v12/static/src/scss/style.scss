@@ -273,7 +273,7 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
 
 .o_required_modifier {
     &.o_input, .o_input {
-        background-color: lighten($brand-primary, 35%) ! important;
+        background-color: lighten($brand-secondary, 35%) ! important;
     }
 }
 
@@ -494,4 +494,10 @@ $o-statbutton-spacing: 6px;
       min-width: 400px;
       max-width: 650px;
     }    
+}
+
+
+// Events
+.bg-primary {
+	background-color: $brand-secondary !important;
 }
